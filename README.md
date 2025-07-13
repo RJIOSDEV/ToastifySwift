@@ -5,6 +5,19 @@ Works across iOS, macOS, watchOS, tvOS — and ready for the future (VisionOS, e
 
 ---
 
+# ToastifySwift
+
+Elegant SwiftUI library for customizable **Toast Notifications** and **Custom Alerts**  
+Works across iOS, macOS, watchOS, tvOS — and ready for the future (VisionOS, etc.)
+
+---
+
+## 📸 Demo
+
+![ToastifySwift Demo](https://github.com/user-attachments/assets/e43df967-b496-4248-8005-9e4b5f842acc)
+
+---
+
 ## ✨ Features
 
 - ✅ Show toasts with message, icon, color, and auto-dismiss timer
