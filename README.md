@@ -37,4 +37,21 @@ Or in `Package.swift`:
 ```swift
 .package(url: "https://github.com/RJIOSDEV/ToastifySwift", from: "1.0.0")
 
+##
+
+## 🧑‍💻 Usage
+
+### Show a Toast
+
+```swift
+@StateObject var toastManager = ToastManager()
+
+.toastify(using: toastManager)
+
+toastManager.show(toast: ToastModel(
+    message: "Saved successfully!",
+    icon: "checkmark.circle.fill",
+    backgroundColor: .green,
+    duration: 2.5
+))
 
