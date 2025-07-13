@@ -39,6 +39,13 @@ Or in `Package.swift`:
 
 ##
 
+Or COCOAPODS
+pod 'ToastifySwift', '~> 1.0.3'
+
+
+---
+
+
 ## 🧑‍💻 Usage
 
 ### Show a Toast
