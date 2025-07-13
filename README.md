@@ -55,3 +55,16 @@ toastManager.show(toast: ToastModel(
     duration: 2.5
 ))
 
+
+
+---
+
+## 📚 Documentation
+
+### ToastManager
+
+A shared `ObservableObject` that triggers toast messages globally.
+
+```swift
+@StateObject var toastManager = ToastManager()
+
