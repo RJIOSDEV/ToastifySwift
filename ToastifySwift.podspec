@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "ToastifySwift"
-  spec.version          = "1.0.2"
+  spec.version          = "1.0.3"
   spec.summary          = "Elegant SwiftUI library for customizable Toasts and Alerts."
 
   spec.description      = <<-DESC
