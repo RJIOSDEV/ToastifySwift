@@ -17,5 +17,12 @@ Works across iOS, macOS, watchOS, tvOS — and ready for the future (VisionOS, e
 
 ## 📦 Installation (Swift Package Manager)
 
-Add this URL to Xcode:
+Add this URL to Xcode: https://github.com/RJIOSDEV/ToastifySwift
+
+
+Or in `Package.swift`:
+
+```swift
+.package(url: "https://github.com/RJIOSDEV/ToastifySwift", from: "1.0.0")
+
 
