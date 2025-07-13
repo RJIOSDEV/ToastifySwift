@@ -18,6 +18,15 @@ struct CustomAlertView: View {
     let message: String
     let primary: AlertActionButton
     let secondary: AlertActionButton
+    private var systemBackgroundColor: Color {
+        #if os(iOS)
+        return Color(UIColor.systemBackground)
+        #elseif os(macOS)
+        return Color(NSColor.windowBackgroundColor)
+        #else
+        return Color.white
+        #endif
+    }
 
     var body: some View {
         VStack(spacing: 16) {
@@ -48,17 +57,8 @@ struct CustomAlertView: View {
             }
             .padding([.horizontal, .bottom])
         }
-        .background(
-            Color(
-                #if os(iOS)
-                UIColor.systemBackground
-                #elseif os(macOS)
-                NSColor.windowBackgroundColor
-                #else
-                .white
-                #endif
-            )
-        )
+        .background(systemBackgroundColor)
+
 
         .cornerRadius(16)
         .shadow(radius: 10)
