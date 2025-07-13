@@ -48,7 +48,18 @@ struct CustomAlertView: View {
             }
             .padding([.horizontal, .bottom])
         }
-        .background(Color(.systemBackground))
+        .background(
+            Color(
+                #if os(iOS)
+                UIColor.systemBackground
+                #elseif os(macOS)
+                NSColor.windowBackgroundColor
+                #else
+                .white
+                #endif
+            )
+        )
+
         .cornerRadius(16)
         .shadow(radius: 10)
         .padding(.horizontal, 40)
