@@ -19,7 +19,6 @@ Works across iOS, macOS, watchOS, tvOS — and ready for the future (VisionOS, e
 
 Add this URL to Xcode: https://github.com/RJIOSDEV/ToastifySwift
 
-
 Or in `Package.swift`:
 
 ```swift
