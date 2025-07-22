@@ -1,9 +1,4 @@
-# ToastifySwift
 
-Elegant SwiftUI library for customizable **Toast Notifications** and **Custom Alerts**  
-Works across iOS, macOS, watchOS, tvOS — and ready for the future (VisionOS, etc.)
-
----
 
 # ToastifySwift
 
