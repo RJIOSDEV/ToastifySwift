@@ -57,6 +57,18 @@ toastManager.show(toast: ToastModel(
     duration: 2.5
 ))
 
+.customAlert(
+    isPresented: $showStandardAlert,
+    title: "Standard Alert",
+    message: "This is a standard alert.",
+    primary: AlertActionButton(title: "OK", background: .blue) {
+        // Your action
+    },
+    secondary: AlertActionButton(title: "Cancel", background: .gray) {
+        // Your action
+    },
+    style: .normal // Only .normal remains
+)
 
 
 ---
